@@ -1,3 +1,25 @@
+year_three:
+  dissertation:
+    name: Final Year Project (Scription)
+    shorthand: Dissertation
+    grade: 87.16%
+  full_stack:
+    name: Full Stack Development (Vignette)
+    shorthand: Full Stack
+    grade: 84.1%
+  project_management:
+    name: Project Management
+    shorthand: Project Management
+    grade: 71.7%
+  alternative_paradigms:
+    name: Alternative Paradigms (Quantum Computing)
+    shorthand: Alternative Paradigms
+    grade: 52.4%
+  networking:
+    name: Advanced Computing and Networking Infrastructures
+    shorthand: Networking Infrastructures
+    grade: 61.45%
+
 year_two:
   design_patterns:
     name: Object Orientated Software Engineering with Design Patterns

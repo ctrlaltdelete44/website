@@ -4,17 +4,16 @@ train-service:
   image: https://res.cloudinary.com/delete-44/image/upload/v1597824062/Website/train_vikstm.webp
   alt: A steam train
   introduction: >-
-    My second year at Plymouth brought with it an interesting introduction to full-stack development.
+    My second year at University introduced full-stack development.
     In teams of 4, we were to develop a ticket booking system for trains. This was to incorporate a mobile
     app for customers, a Java desktop app for staff use, and a web app for administration (plus a database
     and web API so they could interact).
     </p><p>
-    Unfortunately as a university-managed task, the GitHub repo has since
+    As a university-managed task, the GitHub repo has since
     been removed.
   summary: >-
     My role in this was building the desktop app, web app, and co-authoring a Java library that handled our
-    API connections that we could simply import to every project. The primary lesson I took from this course
-    was, well, which frameworks to avoid. I'd be content to not touch Java Swing or Kotlin for the rest of my
+    API connections. Whilst an interesting task, I'd be content to not touch Java Swing or Kotlin for the rest of my
     career.
 
 zombies:
@@ -23,8 +22,7 @@ zombies:
   image: https://res.cloudinary.com/delete-44/image/upload/v1597824057/Website/maze_sj46o4.webp
   alt: A maze made from white lines over a black background
   introduction:
-    Alongside my studies, I educated myself in fundamentals of VBA so that I could create a procedurally-
-    generated mazemaker in Excel. This, very simply, created a random maze using the Excel sheet as a grid.
+    Alongside my studies, I learned basic VBA to create a mazemaker in Excel.
     The process was to create a `Master` path from the center of the given range, which would repeatedly select
     'valid' (ie unblocked) adjacent squares until it couldn't find any other valid paths or reached the end of
     the selection.
@@ -32,12 +30,9 @@ zombies:
     The code would then traverse along this path (with a given step size so you could adjust complexity)
     and create a 'child' path wherever it could.
   summary: >-
-    This was created purely as an exercise to see if I <strong>could</strong>. It was used very briefly in
-    a Dungeons and Dragons session, but the project ended with vague plans that concepts from it could be
-    taken to apply to bigger projects as needed.
-    </p><p>
-    It was, however, refreshing and exciting at the time
-    to work on something entirely for myself; this passion for programming is something I intend to keep.
+    This was created purely as an exercise to see if I <strong>could</strong>. Despite its lack of
+    real-world usefulness, it was a useful introduction to the autonomous learning that has become a
+    fundamental skill in my career.
 
 dungeons-ror:
   title: RoR Tutorial
@@ -47,15 +42,15 @@ dungeons-ror:
   introduction: >-
     In preparation for my placement at Plymouth Software, I taught myself the
     basics of Rails and created a test application (following Michael Hartl's wonderful
-    <a href='https://www.railstutorial.org'>tutorial</a>). The application earned the colloquial name 'Young Forest'
-    following it's deployment to Heroku.
+    <a href='https://www.railstutorial.org'>tutorial</a>). The application earned the colloquial name
+    'Young Forest' following it's deployment to Heroku.
   summary: >-
-    The project was expanded beyond the tutorial during my first few weeks on placement as a learning
-    exercise. Additional features such as private favourites were added, and the codebase was used as
-    a testing ground for significant migrations required in other applications to work out any major issues.
+    The project was expanded beyond the tutorial during my first few weeks on placement to improve my
+    Rails confidence. The codebase was later used as a testing ground for significant migrations
+    required in other applications to work out any major issues.
     </p><p>
     This highlighted the importance of spike applications when undergoing new, challenging, or large changes;
-    recreate the issue in a smaller, simpler app and work through the problems in a simpler environment first.
+    recreating a problem on a smaller scale can help solve it.
 
 
 rainy-days:
@@ -64,11 +59,10 @@ rainy-days:
   image: https://s.gravatar.com/avatar/27daea5cb28598ef30526f1586d9affb?s=500
   alt: A picture of the site author, Anthony
   introduction: >-
-    Learning about so many new technologies made me excited to try them outside of work. So I made this!
+    I was introduced to a lot of new technology at work, and I wanted to experiment with them. So I made this!
   summary: >-
-    This website is my personal practice in development. I'm using GitHub for version control (and to a
-    better standard than I have before) and have it deployed via Netlify. Feel free to check out the repo
-    for more information on how it's been built :)
+    This website is my place to talk about myself for hours on end. It's deployed via Netlify,
+    feel free to check out the repo on my GitHub for more information on how it's been built.
 
 vignette:
   title: Vignette
@@ -77,25 +71,21 @@ vignette:
   alt: A section of the Vignette app, shown with different colourblindness simulators
   introduction: >-
     I'll be the first to admit that I have a lot of unresolved issues with Javascript. But, despite my best
-    intentions, the programming community are determined to keep digging it up. When a university course
+    intentions, the programming community are determined to keep it relevant. When a university course
     required us to learn ME*N stack (Angular excluded for health and safety reasons), I decided to take the
     opportunity to learn React as well... And promptly fell in love.
   summary: >-
-    Vignette is another gratuitous, self-indulgent project. It's designed to help writers struggling with
+    Vignette is a gratuitous, self-indulgent project. It's designed to help writers struggling with
     writers block by motivating them to write flash fiction that is posted publicly, anonymously, and deleted
-    after 30 days; no pressure, no need to write anything good, just an opportunity to write something.
-    It is, in essence, the app I needed in college.
+    after 30 days.
     </p><p>
     At time of writing this is hosted on <a href="https://vignette-app.herokuapp.com/">Heroku</a>, and
     once university allows I'll make the source code publicly available.
     </p><p>
     Does the colour scheme look familiar?
   outroduction: >-
-    This is also around the time I started caring about accessibility. The internet is a wonderful thing,
-    and everybody should be able to use it. So a key requirement of this app was it's accessbility - the
-    colours chosen are visibly distinct when tested with colourblindness simulators & the site is easily
-    navigatable via keyboard. The app scored 95 in Google's Lighthouse test for accessibility, and this is
-    the bar I set for myself and developers I deal with.
+    This application also marks my first steps in caring about accessibility; with no knowledge of WCAG
+    I implemented a few features I considered key: keyboard navigation & colourblind-friendly colours.
 
 scription:
   title: Scription
@@ -103,16 +93,19 @@ scription:
   image: https://res.cloudinary.com/delete-44/image/upload/v1610327171/Website/Scription_heehbn.png
   alt: An early logo for the Scription app. The I in Scription has been replaced with a quill
   introduction: >-
-    And this brings me to now, to this year. At time of writing I'm in my final stage at university, and
-    for my course I have complete freedom to make a project of my choice to be developed during the year.
-    True to form, I'm making something nerdy and self-indulgent - a Dungeons & Dragons notes organiser.
+    This brings me to my final year; our dissertations permitted creative freedom to build a project.
+    True to form, I made something nerdy and self-indulgent - a Dungeons & Dragons notes organiser.
     </p><p>
-    With the complete technical freedom for this project, I've combined some of my favourite things. A
-    Ruby on Rails API with a React web app, (soon-to-be) Flutter App, all wrapped in Docker and hosted on
-    Heroku.
+    With the freedom to choose the tech stack, I combined my favourite things. A
+    Ruby on Rails API with a React web app & Flutter mobile app, all wrapped in Docker and hosted on
+    Heroku (or the Google Play store where relevant).
   summary: >-
     Enter Scription. This is designed to be a quick-reference for notes during a session. You define
     notable characters, locations, or items and then write notes about them. Then should you need to
     fact-check yourself or deal with annoying players, you can quickly see the information about a given
-    notable. Once again, this is designed to be accessible-first. To check progress, this app is hosted
-    <a href="https://scription-app.herokuapp.com/">here</a>
+    notable. To check progress, this app is hosted <a href="https://scription-app.herokuapp.com/">here</a>
+  outroduction: >-
+    This application was designed to meet WCAG 2.1 to an AA level, accessible from
+    the ground up. And yet, even in the short amount of time since I submitted it, I've learned so many areas
+    where I went wrong. I'm absolutely still learning. If you have any advice for somebody in my situation,
+    don't hesitate to reach out.

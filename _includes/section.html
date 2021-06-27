@@ -1,7 +1,7 @@
 {% if include.section.show_label %}
-<p class="f3 f2-ns bb b--secondary" id="{{ include.section.label | slugify }}">
+<h2 class="f3 fw1 f2-ns primary bb b--secondary" id="{{ include.section.label | slugify }}">
   {{ include.section.label }}
-</p>
+</h2>
 {% else %}
 <p class="dn" id="{{ include.section.label | slugify }}"></p>
 {% endif %}

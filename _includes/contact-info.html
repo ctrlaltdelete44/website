@@ -1,16 +1,20 @@
-{% for resource in site.data.resources %}
-  {% if include.size %}
-  <a
-    class="link secondary hover-secondary-darken f{{ size }} mh{{ size | times: 3 }} dn dib-ns" title="{{resource[1].name}}"
-    href="{{ resource[1].url }}"
-  >
+{% for resource in site.data.resources %} {% if include.size %}
+<a
+  class="link secondary hover-secondary-darken f{{ size }} mh{{ size | times: 3 }} dn inline-flex-ns flex-column items-center"
+  title="{{resource[1].name}}"
+  aria-label="{{resource[1].name}}"
+  href="{{ resource[1].url }}"
+>
   {% else %}
   <a
-    class="link secondary hover-secondary-darken f4 mh1 dn dib-ns" title="{{resource[1].name}}"
+    class="link secondary hover-secondary-darken f4 mh1 dn inline-flex-ns flex-column items-center"
+    title="{{resource[1].name}}"
+    aria-label="{{resource[1].name}}"
     href="{{ resource[1].url }}"
   >
-  {% endif %}
+    {% endif %}
     <i class="fab fa-{{ resource[0] }}"></i>
+    <label class="f5">{{resource[1].name}}</label>
   </a>
   {% endfor %}
 </a>

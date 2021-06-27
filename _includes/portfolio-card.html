@@ -1,6 +1,7 @@
 <p class="pt2">{{ portfolio-piece.introduction }}</p>
 
-<div
+<article
+  aria-label="{{portfolio-piece.title}}"
   class="w-100-ns mb2 center flex-ns justify-between-ns pa-1 flex-flip-{{ include.flipper }}-ns"
 >
   <div class="w-40-ns dib w-100">
@@ -42,7 +43,7 @@
     </p>
     {% endif %}
   </div>
-</div>
+</article>
 
 {% if portfolio-piece.outroduction %}
   <p class="pt2">{{ portfolio-piece.outroduction }}</p>

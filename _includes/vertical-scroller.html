@@ -1,5 +1,6 @@
-<section class="db-ns dn vc-ns top-50-ns fixed h-auto">
+<nav class="db-ns dn vc-ns top-50-ns fixed h-auto">
   {% assign sections = site.sections | sort: 'priority' %}
+
   <ul class="list pa0" id="verticalScroller">
     {% for section in sections %}
       {% if section.link_to %}
@@ -9,4 +10,4 @@
       {% endif %}
     {% endfor %}
   </ul>
-</section>
+</nav>
