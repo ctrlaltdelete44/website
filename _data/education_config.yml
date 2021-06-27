@@ -1,3 +1,7 @@
+year_three:
+  condense: false
+  name: University Year Three
+
 year_two:
   condense: false
   name: University Year Two
