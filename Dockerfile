@@ -1,4 +1,4 @@
-FROM jekyll/jekyll
+FROM jekyll/jekyll:4
 
 ADD . /srv/jekyll/site
 
@@ -8,4 +8,4 @@ RUN jekyll build
 
 RUN bundle install
 
-CMD jekyll serve
+CMD jekyll serve --watch --force_polling
