@@ -1,6 +1,16 @@
 <article
   aria-label="{{post.title}}"
-  class="w-90-ns w-100 mb2 pa2 bb b--primary center flex items-center justify-between justify-around-ns"
+  class="
+    w-90-ns w-100
+    mb2
+    pa2
+    bb
+    b--primary
+    center
+    flex
+    items-center
+    justify-between justify-around-ns
+  "
 >
   {% if post.image %}
   <a href="{{ post.url }}" class="link fl ml2 mr4 dib-ns dn">
@@ -12,14 +22,15 @@
     />
   </a>
 
-    {% assign width=80 %}
-  {% else %}
-    {% assign width=100 %}
-  {% endif %}
+  {% assign width=80 %} {% else %} {% assign width=100 %} {% endif %} {% include
+  post_excerpt.html width=width %}
 
-  {% include post_excerpt.html width=width %}
-
-  <a class="f3 ph1 dn-ns fr mt2" href="{{ post.url }}">
+  <a
+    class="f3 ph1 dn-ns fr mt2"
+    href="{{ post.url }}"
+    aria-label="Read more"
+    title="Read more"
+  >
     <i class="fas fa-arrow-circle-right"></i>
   </a>
 </article>

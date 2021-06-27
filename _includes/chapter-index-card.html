@@ -1,6 +1,16 @@
 <article
   aria-label="{{post.title}}"
-  class="w-90-ns w-100 mb2 pa2 bb b--primary center flex items-center justify-between justify-around-ns"
+  class="
+    w-90-ns w-100
+    mb2
+    pa2
+    bb
+    b--primary
+    center
+    flex
+    items-center
+    justify-between justify-around-ns
+  "
 >
   <a class="link fl ml2 mr4 dib-ns dn" href="{{ post.url }}">
     <i class="fas fa-list f1 h3 w3"></i>
@@ -8,7 +18,12 @@
 
   {% include post_excerpt.html width=80 %}
 
-  <a class="f3 ph1 dn-ns fr mt2" href="{{ post.url }}">
+  <a
+    class="f3 ph1 dn-ns fr mt2"
+    href="{{ post.url }}"
+    aria-label="View chapters"
+    title="View chapters"
+  >
     <i class="fas fa-list"></i>
   </a>
 </article>
