@@ -1,10 +1,20 @@
 <header class="w-100 pv1 shadow-1 flex db dn-ns justify-center bgs fixed top-0">
   {% for resource in site.data.resources %}
   <a
-    class="link tertiary hover-secondary-darken f3 ph2"
+    class="
+      link
+      tertiary
+      hover-secondary-darken
+      f3
+      ph2
+      inline-flex
+      flex-column
+      items-center
+    "
     href="{{ resource[1].url }}"
   >
     <i class="fab fa-{{ resource[0] }}"></i>
+    <label class="f5">{{resource[1].name}}</label>
   </a>
   {% endfor %}
 </header>
