@@ -12,8 +12,9 @@
     justify-between justify-around-ns
   "
 >
-  <a class="link fl ml2 mr4 dib-ns dn" href="{{ post.url }}">
+  <a class="link fl ml2 mr4 dn inline-flex-ns flex-column items-center" href="{{ post.url }}">
     <i class="fas fa-list f1 h3 w3"></i>
+    <label class="f5">Chapters</label>
   </a>
 
   {% include post_excerpt.html width=80 %}
