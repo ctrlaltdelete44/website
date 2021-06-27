@@ -9,7 +9,7 @@ title: Home
   {% include section.html section=sections.first %}
 </section>
 
-<div class="w-50-ns w-90 center">
+<main class="w-50-ns w-90 center">
   {% for section in sections %}
     {% if forloop.first %}
       {% continue %}
@@ -17,6 +17,6 @@ title: Home
 
     <section>{% include section.html section=section %}</section>
   {% endfor %}
-</div>
+</main>
 
 {% include vertical-scroller.html %}
