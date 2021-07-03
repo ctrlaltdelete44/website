@@ -20,8 +20,8 @@ ruby-on-rails:
         My tenure with Plymouth Software, a Ruby on Rails consultancy, formed the basis of my Rails
         education. Here, my role largely involved the maintenance of large legacy applications. This
         ranged from version upgrades to bug fixes to redesigning UIs to ensure WCAG 2.1 compliance.
-      image: https://res.cloudinary.com/delete-44/image/upload/v1597824062/Website/train_vikstm.webp
-      alt: Steam Train owo.
+      image: https://res.cloudinary.com/delete-44/image/upload/v1625321423/Website/plymouth_software_padded_zrx6lg.png
+      alt: Plymouth Software logo
 
     - title: Scription API
       summary: >-
@@ -29,8 +29,8 @@ ruby-on-rails:
         year at university. My dissertation project for this, Scription, was my exploration of my ideal
         technology stack; a Ruby on Rails API, consumed by React and Flutter applications, with a
         comprehensive CI/CD pipeline managed by GitHub Actions & Heroku.
-      image: https://res.cloudinary.com/delete-44/image/upload/v1597824062/Website/train_vikstm.webp
-      alt: Steam Train owo.
+      image: https://res.cloudinary.com/delete-44/image/upload/v1625322362/Website/Transparent_icon_ybf1qu.png
+      alt: Scription logo
 
     - title: This website!
       summary: >-
@@ -54,7 +54,7 @@ react:
         reasons), I decided to take the opportunity to learn React as well. Vignette is the product of this;
         it's designed to help writers struggling with writers block by encouraging them to write flash
         fiction that is posted publicly, anonymously, and deleted after 30 days.
-      image: https://res.cloudinary.com/delete-44/image/upload/v1597824062/Website/train_vikstm.webp
+      image: https://res.cloudinary.com/delete-44/image/upload/v1625322041/Website/Screenshot_2021-07-03_at_15.20.37_udphlw.png
       alt: Steam Train owo.
 
     - title: Scription Web App
@@ -65,8 +65,8 @@ react:
         I aimed to meet WCAG 2.1 to an AA level, However, even in the short amount of time since I
         submitted it, I've learned so much more. I'm absolutely still learning. Please get in touch if
         you have any tips!
-      image: https://res.cloudinary.com/delete-44/image/upload/v1597824062/Website/train_vikstm.webp
-      alt: Steam Train owo.
+      image: https://res.cloudinary.com/delete-44/image/upload/v1625322362/Website/Transparent_icon_ybf1qu.png
+      alt: Scription logo
 
 flutter:
   title: Flutter
@@ -79,13 +79,13 @@ flutter:
       summary: >-
         Plymouth Software was once again my introduction to this framework; I once again had a role in
         maintaining an existing codebase for a Flutter application here.
-      image: https://res.cloudinary.com/delete-44/image/upload/v1597824062/Website/train_vikstm.webp
-      alt: Steam Train owo.
+      image: https://res.cloudinary.com/delete-44/image/upload/v1625321423/Website/plymouth_software_padded_zrx6lg.png
+      alt: Plymouth Software logo
 
     - title: Scription mobile
       summary: >-
         To complete my dissertation, I created a lightweight mobile application to provide users an
         alternate way of accessing their data. Being responsible for the entire process from initialisation
         to building to creating a Google Play listing was an invaluable learning experience.
-      image: https://res.cloudinary.com/delete-44/image/upload/v1597824062/Website/train_vikstm.webp
-      alt: Steam Train owo.
+      image: https://res.cloudinary.com/delete-44/image/upload/v1625322362/Website/Transparent_icon_ybf1qu.png
+      alt: Scription logo
