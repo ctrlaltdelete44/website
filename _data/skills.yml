@@ -1,0 +1,17 @@
+ruby-on-rails:
+  title: Ruby on Rails
+  introduction: >-
+    Ruby on rails background...
+  examples:
+    - title: Plymouth Software
+      summary: Plymsoft... description...
+      image: https://res.cloudinary.com/delete-44/image/upload/v1597824062/Website/train_vikstm.webp
+      alt: Steam Train owo.
+    - title: Scription API
+      summary: Scription description...
+      image: https://res.cloudinary.com/delete-44/image/upload/v1597824062/Website/train_vikstm.webp
+      alt: Steam Train owo.
+    - title: Young Forest
+      summary: Young forest desc...
+      image: https://res.cloudinary.com/delete-44/image/upload/v1597824062/Website/train_vikstm.webp
+      alt: Steam Train owo.
