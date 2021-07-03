@@ -7,7 +7,7 @@
 title: Delete 44
 description: >- # this means to ignore newlines until "baseurl:"
   A digital portfolio and collection of blog posts for and by Anthony,
-  a software developer.
+  aka delete44, a software developer.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://www.delete44.com" # the base hostname & protocol for your site, e.g. http://example.com
 

@@ -7,8 +7,8 @@ priority: 5
 
 ### [Plymouth Software](https://www.plymouthsoftware.com/)
 
-As a placement year during my studies, I worked as a developer at Plymouth Software, a company specialising in Ruby on Rails consultancy and upgrades. I worked closely with clients in a "lower-case 'A' agile" team to story-point and complete feature requests and bug reports. Here, I gained valuable experience in Ruby on Rails for web application & API building, especially with modern, reactive front-end frameworks such as Vue.
+As a placement year during my studies, I worked as a developer at Plymouth Software, a Ruby on Rails consultancy. I worked closely with clients in a "lower-case 'A' agile" team to complete feature requests and bug reports. Here, I gained valuable experience working with Ruby on Rails for web app & API building, dabbling with modern, reactive front-end frameworks such as Vue.
 
-Beyond this, I worked with Flutter and Dart on an Android and iOS mobile application; this similarly provided a refreshing change of pace to use more modern technologies.
+Beyond this, I worked with Flutter and Dart on an Android and iOS mobile application.
 
-My tenure here continued part-time during my final year, returning to full-time work once I'd passed deadlines.
+My tenure here continued part-time during my final year, returning to full-time work shortly after.

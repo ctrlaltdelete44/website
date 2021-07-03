@@ -1,50 +1,34 @@
-<p class="pt2">{{ portfolio-piece.introduction }}</p>
-
 <article
   aria-label="{{portfolio-piece.title}}"
-  class="w-100-ns mb2 center flex-ns justify-between-ns pa-1 flex-flip-{{ include.flipper }}-ns"
+  class="w-100-ns mb2 center flex-ns justify-between-ns pa-1 tc flex-flip-{{ include.flipper }}-ns"
 >
-  <div class="w-40-ns dib w-100">
-    {% if portfolio-piece.link %}
-    <a href="{{ portfolio-piece.link }}">
-      <p class="secondary link hover-secondary-dark dib-ns mb0">
-        {{ portfolio-piece.title }}
-      </p>
-    </a>
-    {% else %}
-    <p class="secondary dib-ns mb0">{{ portfolio-piece.title }}</p>
+  <!-- Title & text panel -->
+  <section class="w-40-ns dib w-100">
+    <h4 class="secondary dib-ns mb0">{{ portfolio-piece.title }}</h4>
+
+    <p class="mv2">{{ portfolio-piece.summary }}</p>
+
+    {% if portfolio-piece.website-url %}
+    <a href="{{portfolio-piece.website-url}}" class="mb1">Visit Website</a>
+    <br />
+    {% endif %} {% if portfolio-piece.repository-url %}
+    <a href="{{portfolio-piece.repository-url}}">Visit Repository</a>
     {% endif %}
+  </section>
 
-    <p class="mt1">{{ portfolio-piece.summary }}</p>
-  </div>
-
-  <div class="w-50-ns">
-    {% if portfolio-piece.link %}
-    <a href="{{ portfolio-piece.link }}" class="link">
-      <img
-        src="{{ portfolio-piece.image }}"
-        title="{{ portfolio-piece.alt }}"
-        alt="{{ portfolio-piece.alt }}"
-        class="h-90-ns w-100"
-      />
-    </a>
-    {% else %}
+  <!-- Image panel -->
+  <figure class="w-50-ns">
     <img
       src="{{ portfolio-piece.image }}"
       title="{{ portfolio-piece.alt }}"
       alt="{{ portfolio-piece.alt }}"
       class="h-90-ns w-100"
     />
-    {% endif %}
 
     {% if portfolio-piece.image-credits %}
     <p class="subtle h-10-ns dn db-ns tc mt0">
       {{ portfolio-piece.image-credits }}
     </p>
     {% endif %}
-  </div>
+  </figure>
 </article>
-
-{% if portfolio-piece.outroduction %}
-  <p class="pt2">{{ portfolio-piece.outroduction }}</p>
-{% endif %}

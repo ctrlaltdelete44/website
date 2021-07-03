@@ -1,0 +1,22 @@
+---
+label: Technical Skills
+show_label: true
+link_to: true
+priority: 4
+---
+
+{% for skill-data in site.data.skills %}
+  {% assign skill-piece = skill-data[1] %}
+
+  <h3>{{skill-piece.title}}</h3>
+  <p>{{skill-piece.introduction}}</p>
+
+  <details class="mb4">
+    <summary class="bb b--secondary pointer pa1 mb3">{{skill-piece.title}} Experience</summary>
+
+    {% for portfolio-piece in skill-piece.examples %}
+      {% assign modulus = forloop.index | modulo:2 %}
+      {% include portfolio-card.html flipper=modulus %}
+    {% endfor %}
+  </details>
+{% endfor %}

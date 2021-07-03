@@ -12,6 +12,7 @@
     justify-between justify-around-ns
   "
 >
+  <!-- Image pane -->
   {% if post.image %}
   <a href="{{ post.url }}" class="link fl ml2 mr4 dib-ns dn">
     <img
@@ -25,6 +26,7 @@
   {% assign width=80 %} {% else %} {% assign width=100 %} {% endif %} {% include
   post_excerpt.html width=width %}
 
+  <!-- Mobile-only -> icon -->
   <a
     class="f3 ph1 dn-ns fr mt2"
     href="{{ post.url }}"

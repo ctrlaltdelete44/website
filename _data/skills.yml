@@ -1,0 +1,102 @@
+ruby-on-rails:
+  title: Ruby on Rails
+  introduction: >-
+    Ruby on Rails is a monolithic web app development framework; with a huge developer community
+    behind it and an emphasis on convention over configuration, it enables rapid scaffolding of
+    applications.
+  examples:
+    - title: Young Forest
+      summary: >-
+        In advance of my placement at Plymouth Software, I taught myself the basics of Rails and
+        created a test application following <a href='https://www.railstutorial.org'> Michael Hartl's
+        wonderful tutorial</a>. The application earned the colloquial name 'Young Forest' following
+        it's deployment to Heroku. The project was expanded upon during my first few
+        weeks on placement to improve my Rails confidence.
+      image: https://res.cloudinary.com/delete-44/image/upload/v1597824056/Website/forest_q6kdbv.webp
+      alt: A path leading into a forest
+      repository-url: https://github.com/delete-44/DungeonsROR
+
+    - title: Plymouth Software
+      summary: >-
+        My tenure with Plymouth Software, a Ruby on Rails consultancy, formed the basis of my Rails
+        education. Here, my role largely involved the maintenance of large legacy applications. This
+        ranged from version upgrades and bug fixes to redesigning UIs to ensure WCAG 2.1 compliance.
+      image: https://res.cloudinary.com/delete-44/image/upload/v1625321423/Website/plymouth_software_padded_zrx6lg.png
+      alt: Plymouth Software logo
+      website-url: https://www.plymouthsoftware.com/
+
+    - title: Scription API
+      summary: >-
+        Following my placement year, I dropped to a part-time contract & returned to complete my final
+        year at university. My dissertation project for this, Scription, was my exploration of my ideal
+        technology stack; a Ruby on Rails API, consumed by React and Flutter applications, with a
+        comprehensive CI/CD pipeline managed by GitHub Actions & Heroku.
+      image: https://res.cloudinary.com/delete-44/image/upload/v1625322362/Website/Transparent_icon_ybf1qu.png
+      alt: Scription logo
+      repository-url: https://github.com/delete-44-COMP3000/scription-api
+
+    - title: This website!
+      summary: >-
+        This website is technically not a Rails application, but it deserves an honorable mention & is
+        built using Jekyll, which itself is built on Ruby. This website started as a programming experiment -
+        Dockerising a Jekyll app - but has evolved into the site you see now. It's deployed via Netlify,
+        feel free to check out the repo on my GitHub for more information on how it's been built.
+      image: https://s.gravatar.com/avatar/27daea5cb28598ef30526f1586d9affb?s=500
+      alt: A picture of the site author, Anthony
+      repository-url: https://github.com/delete-44/website
+
+react:
+  title: React
+  introduction: >-
+    React is a Javascript library for writing responsive & componentised front-end applications. I
+    was interested in the topic - and have previously written articles on an alternative to it, Vue -
+    and my final year at university provided an opportunity to learn the framework alongside my course.
+  examples:
+    - title: Vignette
+      summary: >-
+        One module required us to learn ME*N stack, Angular excluded for health and safety
+        reasons. I took the opportunity to learn React as well. Vignette is the product of this;
+        it's designed to help writers struggling with writers block by encouraging them to write flash
+        fiction that is posted publicly, anonymously, and deleted after 30 days.
+      image: https://res.cloudinary.com/delete-44/image/upload/v1625322041/Website/Screenshot_2021-07-03_at_15.20.37_udphlw.png
+      alt: A title from the Vignette app, reading "Vignette"
+      repository-url: https://github.com/delete-44-COMP3006/vignette-app
+      website-url: https://vignette-app.herokuapp.com/
+
+    - title: Scription Web App
+      summary: >-
+        The web app element of my dissertation was another opportunity to experiment with React; I built
+        a quick-reference tool for managing tabletop game notes. The application is live on Heroku, so
+        <a href="https://scription-app.herokuapp.com/">feel free to visit it and try it out</a>.
+        I aimed to meet WCAG 2.1 to an AA level. However, even in the short amount of time since I
+        submitted it, I've learned so much more. I'm absolutely still learning. Please get in touch if
+        you have any tips!
+      image: https://res.cloudinary.com/delete-44/image/upload/v1625322362/Website/Transparent_icon_ybf1qu.png
+      alt: Scription logo
+      repository-url: https://github.com/delete-44-COMP3000/scription-web
+      website-url: https://scription-app.herokuapp.com/
+
+flutter:
+  title: Flutter
+  introduction: >-
+    Flutter is another UI framework, developed by Google, and is their push to make Dart a universal
+    programming language. More support for cross-platform applications is gradually being introduced. My
+    experience of it, however, is strictly in mobile development.
+  examples:
+    - title: Plymouth Software
+      summary: >-
+        Plymouth Software was once again my introduction to this framework; I had a role in
+        maintaining and upgrading an existing codebase for a Flutter application.
+      image: https://res.cloudinary.com/delete-44/image/upload/v1625321423/Website/plymouth_software_padded_zrx6lg.png
+      alt: Plymouth Software logo
+      website-url: https://www.plymouthsoftware.com/
+
+    - title: Scription mobile
+      summary: >-
+        To complete my dissertation, I created a lightweight mobile application to provide users an
+        alternate way of accessing their data. Being responsible for the entire process from initialisation
+        to building to creating a Google Play listing was an invaluable learning experience.
+      image: https://res.cloudinary.com/delete-44/image/upload/v1625322362/Website/Transparent_icon_ybf1qu.png
+      alt: Scription logo
+      repository-url: https://github.com/delete-44-COMP3000/scription_mobile
+      website-url: https://play.google.com/store/apps/details?id=com.scription_mobile
