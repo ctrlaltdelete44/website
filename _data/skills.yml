@@ -5,6 +5,15 @@ ruby-on-rails:
     behind it and an emphasis on convention over configuration, it enables rapid scaffolding of
     applications.
   examples:
+    - title: Young Forest
+      summary: >-
+        In advance of my placement at Plymouth Software, I taught myself the basics of Rails and
+        created a test application (following <a href='https://www.railstutorial.org'> Michael Hartl's
+        wonderful tutorial</a>). The application earned the colloquial name 'Young Forest' following
+        it's deployment to Heroku. The project was expanded beyond the tutorial during my first few
+        weeks on placement to improve my Rails confidence.
+      image: https://res.cloudinary.com/delete-44/image/upload/v1597824056/Website/forest_q6kdbv.webp
+      alt: A path leading into a forest
     - title: Plymouth Software
       summary: >-
         My tenure with Plymouth Software, a Ruby on Rails consultancy, formed the basis of my Rails
@@ -20,15 +29,6 @@ ruby-on-rails:
         comprehensive CI/CD pipeline managed by GitHub Actions & Heroku.
       image: https://res.cloudinary.com/delete-44/image/upload/v1597824062/Website/train_vikstm.webp
       alt: Steam Train owo.
-    - title: Young Forest
-      summary: >-
-        In advance of my placement at Plymouth Software, I taught myself the basics of Rails and
-        created a test application (following <a href='https://www.railstutorial.org'> Michael Hartl's
-        wonderful tutorial</a>). The application earned the colloquial name 'Young Forest' following
-        it's deployment to Heroku. The project was expanded beyond the tutorial during my first few
-        weeks on placement to improve my Rails confidence.
-      image: https://res.cloudinary.com/delete-44/image/upload/v1597824062/Website/train_vikstm.webp
-      alt: Steam Train owo.
     - title: This website!
       summary: >-
         This website is technically not a Rails application, but it deserves an honorable mention & is
@@ -37,3 +37,19 @@ ruby-on-rails:
         feel free to check out the repo on my GitHub for more information on how it's been built.
       image: https://s.gravatar.com/avatar/27daea5cb28598ef30526f1586d9affb?s=500
       alt: A picture of the site author, Anthony
+
+react:
+  title: React
+  introduction: >-
+    React is a Javascript library for writing responsive, componentised front-end applications. I
+    was interested in the topic - and have previously written articles on an alternative to it, Vue -
+    and my final year at university provided an opportunity to learn the framework alongside my course.
+  examples:
+    - title: Vignette
+      summary: >-
+        When a university course required us to learn ME*N stack (Angular excluded for health and safety
+        reasons), I decided to take the opportunity to learn React as well. Vignette is the product of this;
+        it's designed to help writers struggling with writers block by encouraging them to write flash
+        fiction that is posted publicly, anonymously, and deleted after 30 days.
+      image: https://res.cloudinary.com/delete-44/image/upload/v1597824062/Website/train_vikstm.webp
+      alt: Steam Train owo.
