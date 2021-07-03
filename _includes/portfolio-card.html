@@ -9,7 +9,8 @@
     <p class="mv2">{{ portfolio-piece.summary }}</p>
 
     {% if portfolio-piece.website-url %}
-    <a href="{{portfolio-piece.website-url}}">Visit Website</a>
+    <a href="{{portfolio-piece.website-url}}" class="mb1">Visit Website</a>
+    <br />
     {% endif %} {% if portfolio-piece.repository-url %}
     <a href="{{portfolio-piece.repository-url}}">Visit Repository</a>
     {% endif %}
