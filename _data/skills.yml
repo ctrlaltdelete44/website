@@ -14,6 +14,7 @@ ruby-on-rails:
         weeks on placement to improve my Rails confidence.
       image: https://res.cloudinary.com/delete-44/image/upload/v1597824056/Website/forest_q6kdbv.webp
       alt: A path leading into a forest
+      repository-url: https://github.com/delete-44/DungeonsROR
 
     - title: Plymouth Software
       summary: >-
@@ -22,6 +23,7 @@ ruby-on-rails:
         ranged from version upgrades and bug fixes to redesigning UIs to ensure WCAG 2.1 compliance.
       image: https://res.cloudinary.com/delete-44/image/upload/v1625321423/Website/plymouth_software_padded_zrx6lg.png
       alt: Plymouth Software logo
+      website-url: https://www.plymouthsoftware.com/
 
     - title: Scription API
       summary: >-
@@ -40,6 +42,7 @@ ruby-on-rails:
         feel free to check out the repo on my GitHub for more information on how it's been built.
       image: https://s.gravatar.com/avatar/27daea5cb28598ef30526f1586d9affb?s=500
       alt: A picture of the site author, Anthony
+      repository-url: https://github.com/delete-44/website
 
 react:
   title: React

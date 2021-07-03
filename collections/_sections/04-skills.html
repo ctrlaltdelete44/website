@@ -11,8 +11,8 @@ priority: 4
   <h3>{{skill-piece.title}}</h3>
   <p>{{skill-piece.introduction}}</p>
 
-  <details>
-    <summary>My experience</summary>
+  <details class="mb4">
+    <summary class="bb b--secondary pointer pa1 mb3">{{skill-piece.title}} Experience</summary>
 
     {% for portfolio-piece in skill-piece.examples %}
       {% assign modulus = forloop.index | modulo:2 %}

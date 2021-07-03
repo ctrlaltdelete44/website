@@ -6,28 +6,25 @@
   <section class="w-40-ns dib w-100">
     <h4 class="secondary dib-ns mb0">{{ portfolio-piece.title }}</h4>
 
-    <p class="mt1">{{ portfolio-piece.summary }}</p>
+    <p class="mv2">{{ portfolio-piece.summary }}</p>
+
+    {% if portfolio-piece.website-url %}
+    <a href="{{portfolio-piece.website-url}}">Visit Website</a>
+    {% endif %} {% if portfolio-piece.repository-url %}
+    <a href="{{portfolio-piece.repository-url}}">Visit Repository</a>
+    {% endif %}
   </section>
 
   <!-- Image panel -->
   <figure class="w-50-ns">
-    {% if portfolio-piece.link %}
-    <a href="{{ portfolio-piece.link }}" class="link">
-      <img
-        src="{{ portfolio-piece.image }}"
-        title="{{ portfolio-piece.alt }}"
-        alt="{{ portfolio-piece.alt }}"
-        class="h-90-ns w-100"
-      />
-    </a>
-    {% else %}
     <img
       src="{{ portfolio-piece.image }}"
       title="{{ portfolio-piece.alt }}"
       alt="{{ portfolio-piece.alt }}"
       class="h-90-ns w-100"
     />
-    {% endif %} {% if portfolio-piece.image-credits %}
+
+    {% if portfolio-piece.image-credits %}
     <p class="subtle h-10-ns dn db-ns tc mt0">
       {{ portfolio-piece.image-credits }}
     </p>
