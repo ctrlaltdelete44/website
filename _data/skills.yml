@@ -21,6 +21,19 @@ ruby-on-rails:
       image: https://res.cloudinary.com/delete-44/image/upload/v1597824062/Website/train_vikstm.webp
       alt: Steam Train owo.
     - title: Young Forest
-      summary: Young forest desc...
+      summary: >-
+        In advance of my placement at Plymouth Software, I taught myself the basics of Rails and
+        created a test application (following <a href='https://www.railstutorial.org'> Michael Hartl's
+        wonderful tutorial</a>). The application earned the colloquial name 'Young Forest' following
+        it's deployment to Heroku. The project was expanded beyond the tutorial during my first few
+        weeks on placement to improve my Rails confidence.
       image: https://res.cloudinary.com/delete-44/image/upload/v1597824062/Website/train_vikstm.webp
       alt: Steam Train owo.
+    - title: This website!
+      summary: >-
+        This website is technically not a Rails application, but it deserves an honorable mention & is
+        built using Jekyll, which itself is built on Ruby. This website started as a programming experiment -
+        Dockerising a Jekyll app - but has evolved into the site you see now. It's deployed via Netlify,
+        feel free to check out the repo on my GitHub for more information on how it's been built.
+      image: https://s.gravatar.com/avatar/27daea5cb28598ef30526f1586d9affb?s=500
+      alt: A picture of the site author, Anthony

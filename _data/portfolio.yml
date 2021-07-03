@@ -16,54 +16,6 @@ train-service:
     API connections. Whilst an interesting task, I'd be content to not touch Java Swing or Kotlin for the rest of my
     career.
 
-zombies:
-  title: Mazemaker
-  link: Null
-  image: https://res.cloudinary.com/delete-44/image/upload/v1597824057/Website/maze_sj46o4.webp
-  alt: A maze made from white lines over a black background
-  introduction:
-    Alongside my studies, I learned basic VBA to create a mazemaker in Excel.
-    The process was to create a `Master` path from the center of the given range, which would repeatedly select
-    'valid' (ie unblocked) adjacent squares until it couldn't find any other valid paths or reached the end of
-    the selection.
-    </p><p>
-    The code would then traverse along this path (with a given step size so you could adjust complexity)
-    and create a 'child' path wherever it could.
-  summary: >-
-    This was created purely as an exercise to see if I <strong>could</strong>. Despite its lack of
-    real-world usefulness, it was a useful introduction to the autonomous learning that has become a
-    fundamental skill in my career.
-
-dungeons-ror:
-  title: RoR Tutorial
-  link: https://github.com/delete-44/DungeonsROR
-  image: https://res.cloudinary.com/delete-44/image/upload/v1597824056/Website/forest_q6kdbv.webp
-  alt: A path leading into a forest
-  introduction: >-
-    In preparation for my placement at Plymouth Software, I taught myself the
-    basics of Rails and created a test application (following Michael Hartl's wonderful
-    <a href='https://www.railstutorial.org'>tutorial</a>). The application earned the colloquial name
-    'Young Forest' following it's deployment to Heroku.
-  summary: >-
-    The project was expanded beyond the tutorial during my first few weeks on placement to improve my
-    Rails confidence. The codebase was later used as a testing ground for significant migrations
-    required in other applications to work out any major issues.
-    </p><p>
-    This highlighted the importance of spike applications when undergoing new, challenging, or large changes;
-    recreating a problem on a smaller scale can help solve it.
-
-
-rainy-days:
-  title: This website!
-  link: https://github.com/delete-44/website
-  image: https://s.gravatar.com/avatar/27daea5cb28598ef30526f1586d9affb?s=500
-  alt: A picture of the site author, Anthony
-  introduction: >-
-    I was introduced to a lot of new technology at work, and I wanted to experiment with them. So I made this!
-  summary: >-
-    This website is my place to talk about myself for hours on end. It's deployed via Netlify,
-    feel free to check out the repo on my GitHub for more information on how it's been built.
-
 vignette:
   title: Vignette
   link: https://vignette-app.herokuapp.com/
