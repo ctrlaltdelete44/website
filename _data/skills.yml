@@ -8,9 +8,9 @@ ruby-on-rails:
     - title: Young Forest
       summary: >-
         In advance of my placement at Plymouth Software, I taught myself the basics of Rails and
-        created a test application (following <a href='https://www.railstutorial.org'> Michael Hartl's
-        wonderful tutorial</a>). The application earned the colloquial name 'Young Forest' following
-        it's deployment to Heroku. The project was expanded beyond the tutorial during my first few
+        created a test application following <a href='https://www.railstutorial.org'> Michael Hartl's
+        wonderful tutorial</a>. The application earned the colloquial name 'Young Forest' following
+        it's deployment to Heroku. The project was expanded upon during my first few
         weeks on placement to improve my Rails confidence.
       image: https://res.cloudinary.com/delete-44/image/upload/v1597824056/Website/forest_q6kdbv.webp
       alt: A path leading into a forest
@@ -19,7 +19,7 @@ ruby-on-rails:
       summary: >-
         My tenure with Plymouth Software, a Ruby on Rails consultancy, formed the basis of my Rails
         education. Here, my role largely involved the maintenance of large legacy applications. This
-        ranged from version upgrades to bug fixes to redesigning UIs to ensure WCAG 2.1 compliance.
+        ranged from version upgrades and bug fixes to redesigning UIs to ensure WCAG 2.1 compliance.
       image: https://res.cloudinary.com/delete-44/image/upload/v1625321423/Website/plymouth_software_padded_zrx6lg.png
       alt: Plymouth Software logo
 
@@ -44,25 +44,25 @@ ruby-on-rails:
 react:
   title: React
   introduction: >-
-    React is a Javascript library for writing responsive, componentised front-end applications. I
+    React is a Javascript library for writing responsive & componentised front-end applications. I
     was interested in the topic - and have previously written articles on an alternative to it, Vue -
     and my final year at university provided an opportunity to learn the framework alongside my course.
   examples:
     - title: Vignette
       summary: >-
-        When a university course required us to learn ME*N stack (Angular excluded for health and safety
-        reasons), I decided to take the opportunity to learn React as well. Vignette is the product of this;
+        One module required us to learn ME*N stack, Angular excluded for health and safety
+        reasons. I decided to take the opportunity to learn React as well. Vignette is the product of this;
         it's designed to help writers struggling with writers block by encouraging them to write flash
         fiction that is posted publicly, anonymously, and deleted after 30 days.
       image: https://res.cloudinary.com/delete-44/image/upload/v1625322041/Website/Screenshot_2021-07-03_at_15.20.37_udphlw.png
-      alt: Steam Train owo.
+      alt: A title from the Vignette app, reading "Vignette"
 
     - title: Scription Web App
       summary: >-
         The web app element of my dissertation was another opportunity to experiment with React; I built
-        a quick-reference tool for tabletop game notes. The application is live on Heroku, so
+        a quick-reference tool for managing tabletop game notes. The application is live on Heroku, so
         <a href="https://scription-app.herokuapp.com/">feel free to visit it and try it out</a>.
-        I aimed to meet WCAG 2.1 to an AA level, However, even in the short amount of time since I
+        I aimed to meet WCAG 2.1 to an AA level. However, even in the short amount of time since I
         submitted it, I've learned so much more. I'm absolutely still learning. Please get in touch if
         you have any tips!
       image: https://res.cloudinary.com/delete-44/image/upload/v1625322362/Website/Transparent_icon_ybf1qu.png
@@ -73,12 +73,12 @@ flutter:
   introduction: >-
     Flutter is another UI framework, developed by Google, and is their push to make Dart a universal
     programming language. More support for cross-platform applications is gradually being introduced. My
-    experience of it, however, is strictly for mobile development.
+    experience of it, however, is strictly in mobile development.
   examples:
     - title: Plymouth Software
       summary: >-
-        Plymouth Software was once again my introduction to this framework; I once again had a role in
-        maintaining an existing codebase for a Flutter application here.
+        Plymouth Software was once again my introduction to this framework; I had a role in
+        maintaining and upgrading an existing codebase for a Flutter application.
       image: https://res.cloudinary.com/delete-44/image/upload/v1625321423/Website/plymouth_software_padded_zrx6lg.png
       alt: Plymouth Software logo
 

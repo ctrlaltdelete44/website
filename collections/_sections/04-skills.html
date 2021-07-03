@@ -8,11 +8,15 @@ priority: 4
 {% for skill-data in site.data.skills %}
   {% assign skill-piece = skill-data[1] %}
 
-  <h2>{{skill-piece.title}}</h2>
+  <h3>{{skill-piece.title}}</h3>
   <p>{{skill-piece.introduction}}</p>
 
-  {% for portfolio-piece in skill-piece.examples %}
-    {% assign modulus = forloop.index | modulo:2 %}
-    {% include portfolio-card.html flipper=modulus %}
-  {% endfor %}
+  <details>
+    <summary>My experience</summary>
+
+    {% for portfolio-piece in skill-piece.examples %}
+      {% assign modulus = forloop.index | modulo:2 %}
+      {% include portfolio-card.html flipper=modulus %}
+    {% endfor %}
+  </details>
 {% endfor %}
