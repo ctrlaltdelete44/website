@@ -1,14 +1,23 @@
 ruby-on-rails:
   title: Ruby on Rails
   introduction: >-
-    Ruby on rails background...
+    Ruby on Rails is a monolithic web app development framework; with a huge developer community
+    behind it and an emphasis on convention over configuration, it enables rapid scaffolding of
+    applications.
   examples:
     - title: Plymouth Software
-      summary: Plymsoft... description...
+      summary: >-
+        My tenure with Plymouth Software, a Ruby on Rails consultancy, formed the basis of my Rails
+        education. Here, my role largely involved the maintenance of large legacy applications. This
+        ranged from version upgrades to bug fixes to redesigning UIs to ensure WCAG 2.1 compliance.
       image: https://res.cloudinary.com/delete-44/image/upload/v1597824062/Website/train_vikstm.webp
       alt: Steam Train owo.
     - title: Scription API
-      summary: Scription description...
+      summary: >-
+        Following my placement year, I dropped to a part-time contract & returned to complete my final
+        year at university. My dissertation project for this, Scription, was my exploration of my ideal
+        technology stack; a Ruby on Rails API, consumed by React and Flutter applications, with a
+        comprehensive CI/CD pipeline managed by GitHub Actions & Heroku.
       image: https://res.cloudinary.com/delete-44/image/upload/v1597824062/Website/train_vikstm.webp
       alt: Steam Train owo.
     - title: Young Forest
