@@ -14,6 +14,7 @@ ruby-on-rails:
         weeks on placement to improve my Rails confidence.
       image: https://res.cloudinary.com/delete-44/image/upload/v1597824056/Website/forest_q6kdbv.webp
       alt: A path leading into a forest
+
     - title: Plymouth Software
       summary: >-
         My tenure with Plymouth Software, a Ruby on Rails consultancy, formed the basis of my Rails
@@ -21,6 +22,7 @@ ruby-on-rails:
         ranged from version upgrades to bug fixes to redesigning UIs to ensure WCAG 2.1 compliance.
       image: https://res.cloudinary.com/delete-44/image/upload/v1597824062/Website/train_vikstm.webp
       alt: Steam Train owo.
+
     - title: Scription API
       summary: >-
         Following my placement year, I dropped to a part-time contract & returned to complete my final
@@ -29,6 +31,7 @@ ruby-on-rails:
         comprehensive CI/CD pipeline managed by GitHub Actions & Heroku.
       image: https://res.cloudinary.com/delete-44/image/upload/v1597824062/Website/train_vikstm.webp
       alt: Steam Train owo.
+
     - title: This website!
       summary: >-
         This website is technically not a Rails application, but it deserves an honorable mention & is
@@ -51,5 +54,38 @@ react:
         reasons), I decided to take the opportunity to learn React as well. Vignette is the product of this;
         it's designed to help writers struggling with writers block by encouraging them to write flash
         fiction that is posted publicly, anonymously, and deleted after 30 days.
+      image: https://res.cloudinary.com/delete-44/image/upload/v1597824062/Website/train_vikstm.webp
+      alt: Steam Train owo.
+
+    - title: Scription Web App
+      summary: >-
+        The web app element of my dissertation was another opportunity to experiment with React; I built
+        a quick-reference tool for tabletop game notes. The application is live on Heroku, so
+        <a href="https://scription-app.herokuapp.com/">feel free to visit it and try it out</a>.
+        I aimed to meet WCAG 2.1 to an AA level, However, even in the short amount of time since I
+        submitted it, I've learned so much more. I'm absolutely still learning. Please get in touch if
+        you have any tips!
+      image: https://res.cloudinary.com/delete-44/image/upload/v1597824062/Website/train_vikstm.webp
+      alt: Steam Train owo.
+
+flutter:
+  title: Flutter
+  introduction: >-
+    Flutter is another UI framework, developed by Google, and is their push to make Dart a universal
+    programming language. More support for cross-platform applications is gradually being introduced. My
+    experience of it, however, is strictly for mobile development.
+  examples:
+    - title: Plymouth Software
+      summary: >-
+        Plymouth Software was once again my introduction to this framework; I once again had a role in
+        maintaining an existing codebase for a Flutter application here.
+      image: https://res.cloudinary.com/delete-44/image/upload/v1597824062/Website/train_vikstm.webp
+      alt: Steam Train owo.
+
+    - title: Scription mobile
+      summary: >-
+        To complete my dissertation, I created a lightweight mobile application to provide users an
+        alternate way of accessing their data. Being responsible for the entire process from initialisation
+        to building to creating a Google Play listing was an invaluable learning experience.
       image: https://res.cloudinary.com/delete-44/image/upload/v1597824062/Website/train_vikstm.webp
       alt: Steam Train owo.
